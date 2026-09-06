@@ -1,0 +1,28 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Тестовые данные заказчика (конфиденциально)
+*.xml
+*.plcopen.xml
+
+# Логи
+*.log
